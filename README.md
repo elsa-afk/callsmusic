@@ -36,12 +36,12 @@ Copy `example.env` to `.env` and fill it with your credentials.
 
 ### Heroku
 
-[Click here](https://github.com/zack-opp47/callsmusicheroku)
+[Click here](https://github.com/elsa-afk/callsmusic-2_heroku)
 
 
 ## Credits
 
-- [Zack Oppai](https://github.com/zack-opp47) & [Marvin](https://github.com/BlackStoneReborn): development
+- [All Starts](https://github.com/elsa-afk) & [Marvin](https://github.com/BlackStoneReborn): development
 - [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
 
 ## License
