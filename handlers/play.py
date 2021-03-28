@@ -38,7 +38,7 @@ async def play(_, message: Message):
         return await message.reply_text("Aku Tidak Menemukan Link Lagu!")
 
     if message.chat.id in callsmusic.pytgcalls.active_calls:
-        await message.reply_text(f"Queued at position {callsmusic.queues.put(message.chat.id, file_path)}!")
+        await message.reply_text(f"Lagu-mu Akan Diputar Di Nomor! {callsmusic.queues.put(message.chat.id, file_path)}!")
     else:
         callsmusic.pytgcalls.join_group_call(message.chat.id, file_path)
         await message.reply_text("Lagumu Sudah Di-Mulai!...")
